@@ -133,8 +133,6 @@ Thread updateseekbar;
                 mediaPlayer.seekTo(seekBar.getProgress());
             }
         });
-        String endtime = createTime(mediaPlayer.getDuration());
-        txtstop.setText(endtime);
 
         final Handler handler = new Handler();
         final int delay =1000;
@@ -143,6 +141,8 @@ Thread updateseekbar;
             public void run() {
                 String currenttime = createTime(mediaPlayer.getCurrentPosition());
                 txtstar.setText(currenttime);
+                String endtime = createTime(mediaPlayer.getDuration());
+                txtstop.setText(endtime);
                 handler.postDelayed(this,delay);
             }
         },delay);

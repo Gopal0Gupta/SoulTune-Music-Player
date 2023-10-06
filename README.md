@@ -2,6 +2,7 @@
 SoulTune a music player with a lot of animated features.
 this app plays your downloaded .mp3 and .wav from phone.
 I also added an Bar Visualizer.
+YOU CAN DOWNLOAD IT FROM HERE 👉 https://www.amazon.com/gp/product/B0CKJ4ZGWG
 # ScreenShots
 ![1](https://github.com/Gopal0Gupta/SoulTune-Music-Player/assets/114791914/a1c98704-1e74-42c3-bd51-89f96d172b3a)
 Splash Screen
